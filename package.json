@@ -1,0 +1,14 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "A collection of test cases",
+  "main": "index.js",
+  "scripts": {
+    "test": "cho \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.16.1"
+  }
+}
