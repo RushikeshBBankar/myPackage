@@ -6,7 +6,6 @@ export function footerCount() {
                 cy.get('.navFooterVerticalRow').within(() => {
                         cy.get('a').then(($value) => {
                                 length = $value.length
-
                                 cy.get('a').should('have.length', length).then((numLinks) => {
                                         cy.log(`Number of links in the footer: ${numLinks}`);
                                 });
